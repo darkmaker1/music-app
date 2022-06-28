@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3{
+    color: rgb(54, 54, 54)
+}
+body{
+    font-family: 'Lato', sans-serif;
+    // font-family: 'Nunito', sans-serif;
+}
+h3,h4{
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+}
+*{
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+            -webkit-user-drag: none
+}
+@import './Song';
+@import './Player';
+@import './Library';
+@import './Nav';
