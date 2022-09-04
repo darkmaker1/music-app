@@ -22,6 +22,12 @@ h3,h4{
             user-select: none;
             -webkit-user-drag: none
 }
+.App{
+    transition: all .5s ease;
+}
+.library-active{
+    margin-left: 30%;
+}
 @import './Song';
 @import './Player';
 @import './Library';
